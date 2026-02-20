@@ -1,0 +1,61 @@
+.profile {
+    max-width: 880px;
+    margin-top: 40px;
+    /* border: solid red 1px; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.profile__info {
+    display: flex;
+    margin: 0 0;
+    color: white;
+    font-size: 42px;
+    flex-wrap: wrap;
+    max-width: 415px;
+    gap: 18px;
+}
+
+.profile__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.profile__text-name {
+    font-family: 'Inter Medium';
+    color: white;
+    font-size: 42px;
+    margin: 0 0;
+    font-family: "Inter";
+}
+
+.profile__text-adj {
+    color: white;
+    font-size: 18px;
+    margin: 0 0;
+}
+
+.profile__edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    border: solid white 1px;
+    align-self: center;
+}
+
+.profile__add-button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: solid 1px white;
+    margin-left: auto;
+
+}
