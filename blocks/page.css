@@ -1,4 +1,12 @@
  
 .page {
 
+ max-width: 1280px;   
+  
+ /* 880px
+ 320px */
+
+ @media screen { (max-width: 1280px;)
+    
+ });
 }
