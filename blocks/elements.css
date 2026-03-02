@@ -5,12 +5,7 @@
     margin-top: 50px;
     flex-wrap: wrap;
     gap: 20px 17px;
-
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px 17px;
- */
+    justify-content: center;
 }
 
 .elements__element {
@@ -22,12 +17,14 @@
     height: 282px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    display: block; /*havia um margem entre a imagem e o div do text / curtida, essa linha resolveu o problema*/
+    display: flex; 
+
 }
 
 .element__text {
     color: #000;
     margin: 0;
+    font-weight: 900;
 
 }
 
@@ -35,6 +32,7 @@
     background-color: #fff;
     max-width: 21px;
     height: 19px;
+
 }
 
 .elements__element__white {
@@ -45,4 +43,28 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 79px;
+}
+
+@media screen and (max-width: 880px) and (min-width: 647px) {
+    .elements{
+        max-width: 584px;
+        margin: 50px auto 0;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    .elements{
+        display: flex;
+        margin: 36px 19px 0;
+        max-width: 100vh;
+        max-height: 2266px;
+    }
+    
+    .element__img {
+    }
+
+.elements__element__white{
+    display: flex;
+    flex-direction: column;
+}
 }

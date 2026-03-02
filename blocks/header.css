@@ -1,11 +1,34 @@
 .header {
+    display: flex;
     height: 74px;
-    width: 880px;
+    margin-top: 45px;
     border-bottom: solid #545454 1px;
 }
 
 .header__logo {
-    justify-items: center;
     width: 173px;
     height: 33px;
+}
+
+@media screen and (max-width: 880px) and (min-width: 647px)  {
+    .header{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    
+    .header{
+        width: 100%;
+        height: 56px;
+        display: flex;
+        margin-top: 28px;
+        align-items: center;
+    }
+    .header__logo{
+        max-width: 126px;
+        max-height: 24px;
+        padding-left: 27px;
+    }
+
 }

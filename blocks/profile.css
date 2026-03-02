@@ -1,21 +1,23 @@
 .profile {
-    max-width: 880px;
     margin-top: 40px;
-    /* border: solid red 1px; */
     display: flex;
     align-items: center;
     gap: 30px;
-    
+}
+
+.profile__person{
+    display: flex;
+    align-items: center;
+
 }
 
 .profile__info {
     display: flex;
-    margin: 0 0;
+    padding-left: 30px;
     color: white;
     font-size: 42px;
     flex-wrap: wrap;
     max-width: 415px;
-    gap: 18px;
 }
 
 .profile__img {
@@ -27,17 +29,18 @@
 }
 
 .profile__text-name {
-    font-family: 'Inter Medium';
     color: white;
     font-size: 42px;
     margin: 0 0;
-    font-family: "Inter";
+    font-weight: 500;
 }
 
 .profile__text-adj {
     color: white;
     font-size: 18px;
-    margin: 0 0;
+    margin: 0;
+    padding-top: 16px;
+    font-weight: 400;
 }
 
 .profile__edit-button {
@@ -49,6 +52,7 @@
     background-color: black;
     border: solid white 1px;
     align-self: center;
+    margin-left: 18px;
 }
 
 .profile__add-button {
@@ -58,4 +62,92 @@
     border: solid 1px white;
     margin-left: auto;
 
+}
+
+.row{
+    display: flex;
+}
+
+@media screen and (max-width: 880px) and (min-width: 647px) {
+    .profile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .profile__person {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .profile__info{
+        display: flex;
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    
+    .profile__add-button{
+        margin: 0 auto;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 646px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid 2px black;
+        margin-top: 42px;
+        max-height: 286px;
+    }
+    
+    .profile__person {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile__img{
+        margin-bottom:30px;
+    }
+    .profile__add-button{
+        width: 50%;
+        height: 50px;
+        border: solid white 2px;
+        margin: 0 auto;
+    }
+    
+    .profile__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+ .profile__text-adj {
+        margin: 0 auto;
+    }
+
+.profile__text-name{
+    font-size: 22px;
+}
+
+.profile__edit-button{
+}
+.row{
+    width: 100%;
+    display: flex;
+}
 }

@@ -3,29 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- vierport = janela de visualição, width=device-width = largura do dispositivo -->
     <meta name="author" content="Davino"> <!-- Informar aos navegadores, motores de buscas quem é o autor da página. -->
-    <meta name="Keywords" content="cidade, Comunidade, Convite, Criatividade">  <!-- Informar aos navegadores, motores de buscas palavras-chave relacionadas ao conteúdo da página. -->
-    <meta name="discription" content="Around"> <!-- Informar aos navegadores, motores de buscas uma breve descrição do conteúdo da página. -->
+    <meta name="Keywords" content="cidade, Comunidade, Convite, Criatividade">
+    <!-- Informar aos navegadores, motores de buscas palavras-chave relacionadas ao conteúdo da página. -->
+    <meta name="discription" content="Around">
+    <!-- Informar aos navegadores, motores de buscas uma breve descrição do conteúdo da página. -->
     <title>Around</title>
     <link rel="icon" type="images">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body class="body">
-    <page class="page">
+<body>
+    <div class="page">
         <header class="header">
             <img class="header__logo" src="./Nova pasta/Logotipo.svg">
         </header>
-        <main>
+        <main class="main">
             <section class="profile">
-                <img class="profile__img" alt="Jacques" src="./images/Jacques.jpg">
-                <div class="profile__info">
-                    <h1 class="profile__text-name">Jacques Cousteau</h1>
-                    <button class="profile__edit-button">
-                        <img alt="caneta" src="./images/Vector.png"></button>
-                    <h3 class="profile__text-adj">Explorador</h3>
+                <div class="profile__person">
+                    <img class="profile__img" alt="Jacques" src="./images/Jacques.jpg">
+                    <div class="profile__info">
+                        <div class="row">
+                            <h1 class="profile__text-name">Jacques Cousteau</h1>
+                            <button class="profile__edit-button">
+                                <img alt="caneta" src="./images/Vector.png"></button>
+                        </div>
+                        <h3 class="profile__text-adj">Explorador</h3>
+                    </div>
                 </div>
                 <button class="profile__add-button">
                     <img ald="add" src="./images/Vector (1).png">
@@ -76,7 +82,7 @@
                 </div>
             </section>
         </main>
-    </page>
+    </div>
 </body>
 
 </html>
