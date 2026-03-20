@@ -1,5 +1,13 @@
-O arquivo README.md contém:
-1. O nome do projeto
-2. Uma descrição do projeto e sua funcionalidade
-3. Uma descrição das tecnologias e técnicas utilizadas
-4. O link para o GitHub Pages
+Around the U.S
+Este projeto é uma página web desenvolvida para apresentar informações sobre viagens, incluindo destinos e imagens. O objetivo é oferecer uma experiência simples, rápida e visualmente agradável para o usuário.
+
+- HTML5
+- CSS3
+- JavaScript
+- Git e GitHub
+- Responsividade (Flexbox / Grid)
+- Boas práticas de organização de código
+
+Acesse o projeto online:
+
+https://github.com/Davino-N/web_project_around/branches
