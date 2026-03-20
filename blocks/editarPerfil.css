@@ -76,7 +76,7 @@
     list-style: none;
 }
 
-.perfils__salve--perfil {
+.perfils__salve {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@
     color: #fff;
 }
 
-.perfils__salve--perfil:hover {
+.perfils__salve:hover {
     opacity: 0.7;
     cursor: pointer;
 }
