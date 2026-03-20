@@ -22,18 +22,18 @@
         </header>
         <main class="main">
             <section class="profile">
-                <div class="profile__person">
-                    <img class="profile__img" alt="Jacques" src="./images/Jacques.jpg">
-                    <div class="profile__info">
-                        <div class="row">
-                            <h1 class="profile__text-name">Jacques Cousteau</h1>
-                            <button class="profile__edit-button">
+                <div class="profile__perfil">
+                    <img class="profile__photo" alt="Jacques" src="./images/Jacques.jpg">
+                    <div class="profile__information">
+                        <div class="profile__row">
+                            <h1 class="profile__name">Jacques Cousteau</h1>
+                            <button class="profile__button--edit">
                                 <img alt="caneta" src="./images/Vector.png"></button>
                         </div>
-                        <h3 class="profile__text-adj">Explorador</h3>
+                        <h3 class="profile__adjetivo">Explorador</h3>
                     </div>
                 </div>
-                <button class="profile__add-button">
+                <button class="profile__button--add">
                     <img ald="add" src="./images/Vector (1).png">
                 </button>
             </section>
@@ -81,8 +81,23 @@
                     </div>
                 </div>
             </section>
+            <section class="perfils">
+                <div class="perfils__box">
+                    <img class="perfils__img" src="./images/Close Icon.png"></img>
+                    <form class="perfils__perfil">
+                        <h2 class="perfils__title">Editar perfil</h2>
+                        <input type="text" class="perfils__name" placeholder="Nome"></input>
+                        <input type="text" class="perfils__qualidade" placeholder="Qualidade"></input>
+                        <button type="submit" class="perfils__salve--perfil">Salvar</button>
+                    </form>
+                </div>
+            </section>
         </main>
+        <footer class="footer">
+            <p class="footer__information">&copy 2026 Around Brazil</p>
+        </footer>
     </div>
+    <script src="./pages/index.js"></script>
 </body>
 
 </html>

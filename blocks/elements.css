@@ -1,7 +1,6 @@
 .elements {
     display: flex;
     max-width: 880px;
-    max-height: 743px;
     margin-top: 50px;
     flex-wrap: wrap;
     gap: 20px 17px;
@@ -9,7 +8,7 @@
 }
 
 .elements__element {
-    width: 282px; 
+    width: 282px;
 }
 
 .element__img {
@@ -17,7 +16,7 @@
     height: 282px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    display: flex; 
+    display: flex;
 
 }
 
@@ -32,7 +31,11 @@
     background-color: #fff;
     max-width: 21px;
     height: 19px;
+    cursor: pointer;
+}
 
+.element__group-img:hover {
+    opacity: 0.7;
 }
 
 .elements__element__white {
@@ -46,25 +49,17 @@
 }
 
 @media screen and (max-width: 880px) and (min-width: 647px) {
-    .elements{
+    .elements {
         max-width: 584px;
         margin: 50px auto 0;
     }
 }
 
 @media screen and (max-width: 646px) {
-    .elements{
+    .elements {
         display: flex;
         margin: 36px 19px 0;
         max-width: 100vh;
         max-height: 2266px;
     }
-    
-    .element__img {
-    }
-
-.elements__element__white{
-    display: flex;
-    flex-direction: column;
-}
 }

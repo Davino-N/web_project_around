@@ -5,6 +5,8 @@
         "markdown": false,
         "scminput": false,
         "css": false,
-        "html": true
-    }
+        "html": true,
+        "javascript": true
+    },
+    "files.autoSave": "onWindowChange"
 }

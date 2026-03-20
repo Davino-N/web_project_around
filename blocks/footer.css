@@ -1,0 +1,11 @@
+.footer {
+    margin: 67px 0 60px;
+    display: flex;
+    justify-content: start;
+}
+
+.footer__information {
+    color: white;
+    margin: 0;
+
+}
