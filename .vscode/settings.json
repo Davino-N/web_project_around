@@ -8,5 +8,6 @@
         "html": true,
         "javascript": true
     },
-    "files.autoSave": "onWindowChange"
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.port": 5501
 }
